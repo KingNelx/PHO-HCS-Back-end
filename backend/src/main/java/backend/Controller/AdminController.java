@@ -30,4 +30,6 @@ public class AdminController {
     List<Admin> getAdmin(){
         return adminRepo.findAll();
     }
+
+
 }
