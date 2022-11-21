@@ -51,6 +51,18 @@ public class Patient {
     private @Getter @Setter boolean emphysema;
     private @Getter @Setter boolean hasEpilepsy;
     private @Getter @Setter boolean hasHepatitis;
+    private @Getter @Setter boolean hasHyperlipidemia;
+    private @Getter @Setter boolean hasHypertension;
+    private @Getter @Setter boolean hasPepticUlcer;
+    private @Getter @Setter boolean hasPneumonia;
+    private @Getter @Setter boolean hasThyroidDisease;
+    private @Getter @Setter boolean hasPulmonaryTuberculosis;
+    private @Getter @Setter boolean hasExtraPulmonaryTuberculosis;
+    private @Getter @Setter boolean urinaryTractInfection;
+    private @Getter @Setter boolean hasMentalIllness;
+    private @Getter @Setter String otherConcerns;
+
+    // family and past medical history entity is the same
     
 
 }
