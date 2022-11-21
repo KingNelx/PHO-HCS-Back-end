@@ -30,6 +30,7 @@ public class Patient {
     private @Getter @Setter String lastName;
     private @Getter @Setter String firstName;
     private @Getter @Setter String middleName;
+    private @Getter @Setter String designatedRHU;
 
     @Column(length = 12)
     private @Getter @Setter String philHealthNo;
@@ -63,6 +64,6 @@ public class Patient {
     private @Getter @Setter String otherConcerns;
 
     // family and past medical history entity is the same
-    
+
 
 }
